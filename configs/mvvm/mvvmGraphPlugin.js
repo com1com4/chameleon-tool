@@ -31,7 +31,6 @@ class mvvmGraphPlugin {
         moduleType: 'asset'
       }
     ]
-    
   }
   apply(compiler) {
     let self = this;
@@ -59,13 +58,12 @@ class mvvmGraphPlugin {
       let moduleNodeMap = new Map();
       // appModule
       let mvvmGraph = self.createGraph(appModule, null, moduleNodeMap);
+
+      // 返回false 不进入emit阶段
       return false;
       
     })
-    compiler.plugin('done', function(compilation) {
-      debugger
-      
-    })
+    
   }
 
   // 创建依赖图
