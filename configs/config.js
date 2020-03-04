@@ -41,6 +41,6 @@ module.exports = {
     vm: false,
     zlib: false
   },
-  ip: require('ip').address()
+  ip: cml.config.get().devHost || require('ip').address()
 
 }
