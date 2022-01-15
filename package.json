@@ -91,7 +91,7 @@
     "postcss-plugin-px2rem": "0.7.0",
     "postcss-plugin-weex": "0.1.6",
     "prettier": "1.15.3",
-    "shelljs": "0.8.2",
+    "shelljs": "0.8.5",
     "style-loader": "0.18.2",
     "stylus": "0.54.5",
     "stylus-loader": "3.0.2",
